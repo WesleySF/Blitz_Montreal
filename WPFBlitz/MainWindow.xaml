@@ -1,0 +1,14 @@
+﻿<Window x:Class="WPFBlitz.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFBlitz"
+        mc:Ignorable="d"
+        Title="BLITZ" Height="250" Width="600">
+    <Grid>
+        <TextBox Background="LightGray" Cursor="No" Foreground="#FF131212" Height="30" HorizontalAlignment="Left" IsReadOnly="True" Margin="24,37,0,0" Name="txtWay" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="374" />
+        <Button Content="Selecionar" HorizontalAlignment="Left" Margin="447,25,0,0" VerticalAlignment="Top" Width="126" Click="SelectSheet" Height="58"/>
+        <Button Content="Start" HorizontalAlignment="Left" Margin="415,124,0,0" VerticalAlignment="Top" Width="158" Click="Run" Height="74"/>
+    </Grid>
+</Window>
